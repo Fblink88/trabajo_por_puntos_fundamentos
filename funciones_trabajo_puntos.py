@@ -156,7 +156,7 @@ def tomar_pasajero():
     else:
         print(f"El precio final de su pasaje con asiento normal es de ${precio_norm}")
         
-    if banco_pasajero == "BANCO DUOC":
+    if banco_pasajero == "BANCO DUOC" or banco_pasajero == "BANCODUOC":
         print("Se a detectado un descuento del 15% por ser socio del banco DUOC")
         if vip == True:
             descuento = precio_vip * 0.15
